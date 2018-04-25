@@ -21,7 +21,7 @@ export default class App extends React.Component {
 
   onPressButton = async () => {
     if (this.camera) {
-      // let photo = await this.camera.takePictureAsync();
+      let photo = await this.camera.takePictureAsync();
       var choices = ['H A P P Y R U', 'S A D R U', 'I N D E T E R M I N I B I R U'];
       this.setState(s => { 
         return { hasCameraPermission: s.hasCameraPermission, mood: choices[Math.floor(Math.random() * choices.length)] }
