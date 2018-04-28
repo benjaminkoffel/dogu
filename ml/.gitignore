@@ -3,6 +3,6 @@ bin/
 include/
 lib/
 MNIST-data/
-pyenv.cfg
+pyvenv.cfg
 model.yaml
 model.h5
